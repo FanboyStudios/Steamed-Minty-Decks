@@ -1,0 +1,22 @@
+1. Open the /etc/lightdm/ folder as root in your file browser.
+
+2. Open the lightdm.conf file with your text editor.
+
+3. In the "[Seat:*]" section add the following on a new line:
+greeter-setup-script=/etc/lightdm/greeter_setup.sh
+
+4. Save the file and close the text editor.
+
+5. Create a "greeter_setup.sh" file (without quotation marks) in the same folder with the following content.
+#!/bin/bash
+xrandr -o right
+exit 0
+
+6. Save the file and close the text editor.
+
+7. Right click on the file. Open the properties menu, go to the "Permmisions" tab and check the box for "Allow exceuting file as program".
+
+8. Reboot your Steam Deck. The Login Screen should now appear correctly. 
+- The touchscreen interaction layer is still rotated though. (Looking for a fix...)
+
+9. ???
