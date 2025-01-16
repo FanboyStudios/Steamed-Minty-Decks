@@ -5,7 +5,7 @@
 Linux Mint 22 - Cinnamon Edition
 
 ### Current Known Issues:
-- Rotated Login Screen when booting and logging out.
+- Rotated Login Screen when booting and logging out. (I must currently login using a docking station.)
 - No TDP Control. (Important for saving battery while using the device undocked.)
 - No Gamescope (SteamOS Gaming Mode).
 - ???
