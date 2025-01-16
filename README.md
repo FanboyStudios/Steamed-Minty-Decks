@@ -1,7 +1,7 @@
 # Steamed Minty Decks
 ## Linux Mint Setup Guide for the Valve Steam Deck
 
-## This guide assumes you are using the same version of Linux Mint as I am, and are having the same issues. xD
+### This guide assumes you are using the same version of Linux Mint as I am, and are having the same issues. xD
 Linux Mint 22 - Cinnamon Edition
 
 ### Current Known Issues:
