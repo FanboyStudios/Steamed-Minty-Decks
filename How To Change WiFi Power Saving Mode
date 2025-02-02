@@ -1,0 +1,20 @@
+How To Change WiFi Power Saving Mode!
+
+By default, WiFi Powersave Mode is enabled in Linux Mint. 
+
+This may cause issues with downloads going slow. This can also lead to downloads stopping/failing when the device suspends, as such some of you might want to change this setting.
+
+
+
+1. Open the /etc/NetworkManager/conf.d folder as root in your file browser.
+
+2. Open the default-wifi-powersave-on.conf file with your text editor.
+
+3. In the "[connection]" section change the number in "wifi.powersave = 3" your desired value (2 disables powersave, 3 enables powersave). 
+
+4. Save the file and close the text editor.
+
+5. Open yout terminal and enter the following command to restart your network manager and apply your changes:
+sudo systemctl restart NetworkManager
+
+6. Profit?
