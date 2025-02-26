@@ -10,6 +10,7 @@ greeter-setup-script=/etc/lightdm/greeter_setup.sh
 5. Create a "greeter_setup.sh" file (without quotation marks) in the same folder with the following content.
 #!/bin/bash
 xrandr -o right
+xinput --map-to-output 'pointer:FTS3528:00 2808:1015' eDP
 exit 0
 
 6. Save the file and close the text editor.
